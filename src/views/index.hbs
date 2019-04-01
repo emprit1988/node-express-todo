@@ -1,0 +1,30 @@
+{{#if userContext}}
+  <div class="d-flex justify-content-center">
+    <img class="rounded img-fluid" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAwFBMVEX///+h0zwjHyAAAAAgGhyg0zkdGBoXEhNLSEmc0S1zcnIfGxyd0S+f0jWd0S6b0CbIyMgJAAD8/vkSCw329vbr6+v0+urv9+Hm89DS6an6/fSl1UQPBwna7bk1MjOs2FaNjIyqqanf39/i8chFQkPN55/A4YW33W/H5JS8u7yzsrKXlpZqaGnw8PBYVlbs9tt/fn7A4YOt2FrU09M6Nzji4uLX67O13G3Ew8Pk8suRkJBiYGEqJieioaFTUFF7eXmwUl2OAAAMMUlEQVR4nO1dCXeiPBRVKTgoSHFr3eoyatVR69Jtaq3//199JFRNyMJTcfyKuXPOnFM2zeUtNy8PTCQUFBQUFBQUFBQUFBQUFBQUFBQUFBQULor8pb/AD0S++tSozN8WzVoymazVFm+PvcZT9dLf6mfgqfLYNB3TsnWEJP7ftkzHqT1WnpQxylB9fdTNnK0neUAk6m+V8qW/5P8U1cabaQqo28HOOW+vikEGjbecacup21phLrdoKC8m8dp0YNx9M+jUKorAb+QrSTPEZ1kCTbuncjHCEeRhAnN279Jf/fJ4ajrHkOdbYO3+0l//ssgPjiYPE+jMrzkE3lvWCeQhWLnGpQdxMfSOCnpBAxxcehiXQXlhnkwegtm8Rhl9nzxE6clg278vPZh/jsZJOYOG7lQuPZx/jIoTGXkIVxYAB9Gy5/E3v/SQ/iH6UbPnJZDHSw/qnyFy28P8XYv9RRz3dvxdR/x7PQ97Xvy7hhLC73Ox5/EX/wlcOUK9x/L3dOnhnRvNM7KX1GsxL8D0c2dkL5m04i1fzhj4fDivlx7iGVEOW4fcQbctyxIcLdnl8Xd36UGeD4/AIotu1ua9ymCe5FRTLf1xUOn1m4IoYC8uPcizAeq6ur1VIAOGP3PwvcD2W3ArzLiql3wN6LrO3905wURt9Xe7KvxCv67HdAGzB6wu20T6DHJk77kpC2yZYDhOEA2XgUksPwboswlqqqLrmbEUz2wc40NPEtq3T0c4kyjL/xXRZ8ex9lKGLm2QvpvQ6dhH+K7kdsRRvECNj0qdd7SF6aQqESeiGJpfHrwq6RDrjoHQlyOWhMqS6Z8Vu6XLHtT49CZx1hvt8aRXvkruhxW3yilY81FDr9LsUcxKZzBmzCov9+BagUPIlsA0hZQt+aTsfsStcNqH5l2obJHfD/vt3w/xnAAnDkq2BCzMImRLSCy1Y5U84HU+UrY8HSVb/MvEqu4HrVRJZYtFypaQRK7HyXur4LxLWdiRssU/OEa59wnsu1DZMg8zZ6Lo9eMhKM1xYAJlix5mznFSzvDQpxM+NzhWtuALRVm0L73/yaym09VstAw5ctLp3HpYdorwq3dGrfFquhp/DDv8A8C+C5UtgPqDLpAuowfjhg/j+Z13QunjU9Pq6bRhpAuupq24B+Erj70D93jetAV0kLjdaJpb8C7uXd37mBnnlDu4bCH0xh2dHShzAiy2izoONCMlQjrFHl7cFOpZ6iCtyycwo6WpA7NpV+u25Va4nGpp6isUtHEpeBBc9UFlC2CxXaD8ipqQvVS2wAy2rRUwZy42KBcTZGirCefK3xfOYnxf0XC1tpi84gzfy2zBN9e64d+eP4HDwJkDKlsagEmMKHdMCf/CoyT+zgQPzmiYrvpqdNspdW7bmxS2lsInx8fwoW499eAhVXc9rjGDWpfHNULpoY7pumkNl53Scrieui5iUJvSx4EnvJRsoTk/TLYkA2GUxPJ2hy7ib/83kxemrrff7Y7Is8eIdENjc4hHX3q8M9/Ssr1y69ic6vx885JC/GpjYm9x9Iw+sf6L8oI3qGiOTLYgvmsC+gj88m72jXh3Bo1FawW2viMnM1JMiEL00eZbamELzBZeOBcvfqLLaLeBzS1kxPUVsSUP7qrSo6i2bOGIedlCTl8bjUQbMttf0MDTX8HNLH0egV/oDhgPnAQy9oKq8ckSO8Kfut5vqELZo/wtMM8z4dWWLX3hRRcpfRNse7zI3yl4/quNAlt59CUSG+yN7PYhZolnlviupffGXYWGPmqR6DTZkgStt0np2xS4fGzHnv0MmBSfvsQKpW42VH5muZaNMPY8vrC/EkRmMPZSoU86pNqyvVr4armMvhI2D4FsmxqsYQroKz5kUU4JbEUuml6xRyNMMOE784O2F1AW9niabEnSVX8BZPT98dJmoSXYufRGbzzT2wT08d0UfTIne/toefzVd+oPOumIUrYkQTUXGX3IaFxebMLoGgwlIvoSKXQl2lRfkPc/8w5G6Hjx0uhu/4KWq4CyJdh5ILxc+HOWEvrQAI1fwjORgQQoEdK39uzYoKVw2yXtiwF166D02VHKllPpQy5XmAnPvGXJEtLXwamU2oSyg9B3E4lZmsgrwNgnky3OwbLl1NiHzSuoTfZ4qTPGKaSviLKsS8lsZF4FRnjvMCKNE0gfVW2h8+4RsuVU+jLIAIJTAgLemVlaDQvpY/NEkT2bArbtrelDhUaksuVU3beSuxfWbVnKfsT0MdcqFWSZw3f3nayByeaIZcups46VTFl4eGbcT0zfOGjJmL4u91h/P8pb21khbJ2NlC35oGwhkgpQttDxUoATrK97Mn0S65uQ9MGiFVS2gB8NyYm/3hYS+kJyIw7+xrHOO0nLY98LNScBrRRZUS0SfYNS2gJI6NugIQuXNQ5LHV/ewS5VYMV1WlEZNZA6QI2lUcsWUIuphD40Z6uv+fsSvvsdJFzq1CYUObnlFh+UcEm8Hrg0EYVsSVqAh6Ml9L1rnIn+HofIZs4MLZMW1lsQkOjcmz7E4aCyBbxiDHm6SEJfyZWGJ46qFtLHKT4g80pvhN+LVtUA3SxrHD1KtoAejZaVDLB/CXUzLhnQ0wYhfYiMQBZ6wSV50cVxyYCIDNJOUAxKtgR89yjZotcAz2bJ6Fu74oqcX7AKFBRE9L1zils4mzD16i1myLSJuBu+1EZWlwLPu1A5AFhtAfaXSsulrqiavh19IHbJyqVaMAmhcqkhEM7+JxNxI9zlSJEWhWyhAqYQ0mL9jE2uW7R5g5cU67OfzGZcRuCXrJBMpHaVw+ijbCUoWwjfBcsW2Fsh5EtFKD65vJpVB63fMqKQT98YmxIbQ/0FNV5sXaNEnaWSVpjciFy2QOYcYQuV/ghbzPalm+XxyqNv+YyZ5lnZuMBfBl1zeA0LfqRsCahEUr/BZYuwx4BCyDL5DNvfV6Au9wexV2C9mqVvmcE9LBpXPhY/cZNB4C6UVhqH75CCs7TaQnjhAbIF9EbEEPoSY7/FhegaK61TyBsLXVYR+k0a/vZi6WXYMnA/TJZjv/6lHtDuutve357ODJ/CniGXLjLZUjtKtiRBrc1h9CU22g3uGutm1sPhcDSbppHppbQvjp7GVKceus/evwdD09BaeuqmbggnFyXc0JJyC1+ztnf19aaL27myHF+Xx3yyMCyTLXDfhT1RjugzpEcMUwW/V6+O+tMK3y1kH7xDtW1/mrFrUDNcoyW7estvNjRw/1s9jf9wPzmFijup25HtKIH6Ailb4B3mgEI9gkef8SA/ZJLRXLKh0nC1Fb9p9JdmEO2RN6hZtLsO6dFd/vru6vtGWqt/cE9ZSLxXKluOqbZAuqsQ2t5Nl7Qv+pi0p67m1tMePBP8WotWeIof0wd32ymYfl7NhuK1oD06H89+dy7q/DXGIk9vSCyHlLhB2UISIbsFFEzoq2BLS8gQE5P39p/NarxZD8U1OoTiZNJZeihNige0hpdG7Y/MdNxqLyUnSSr2ZHEkYGHk00F30F4ZYOL4UZA8B0RYX/A5U9L6wHkXUur7aZA8EE1wxNT190lA5v4B+uL4IpyK2PzshU/S/RuTHHTd/12YMvhVErF6oIiAJPrpjtVsNi3eL+7oOafWbNYcMHtxfQuT/PEOXVzK0yX7WMT2FX7wR9tOQKQPs/2vAH6L1SmI5xusMKDvUDsBVvzeILQD/AmPYwFaIfqxgD9beSSAtYKfirO9cf2bvRjONyjMT/1tLBni9vYbFvnm+dSLnoxz4PNRPkQCH8aeFV/NsseddSb+zHinjS3grQIHIW5vTRPiLG+uj+1Ul0WUP9K2Ze+afqrtHtzgDYMOWxaPDZ4izR+6GaM3VoFQrkWn/2w9hi9qDkH1LaoEYi5i9apIKCqRJJCr/YHexD3v50wOhB2nF/UdiPz8RAPUncf4T3MluK+dUoC2ktelVzioHP3z7nbuWqMeifIcvoZLkuc8XmXCZVHu5w4l0M7Nr0/rCVEemCY8ieg5s68sj0L1deGAJnK65SwqijwW5V4tZ0prCbptmrWe8loR7hrzmuNRyHKo63bOqc0bijs58uXXwaLmcWXmLMu20Q9Smh6jyUX/9S5+TaNnQvXpb6PSG/Tn/UGv0vj7dNVzCwUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFhR+L/wDot/47/45kPAAAAABJRU5ErkJggg==" />
+  </div>
+{{else}}
+  <h1 class="text-center">Please log in</h1>
+{{/if}}
+
+
+{{#if userContext}}
+ <div class="container">
+   <div class="col-md-6 offset-md-4">
+     <h5> Add New Task </h5>
+      <form class="form-inline" action ="/addtask" method="POST">
+          <input type="text" class="form-control" name="task_name" placeholder="add new task">
+          <input type="date" class="form-control" name="expiry_date" />  
+          <button type="submit" class="btn btn-primary"> Add Task </button>
+      </form>
+      <br/>
+      <br/>
+      <h5> ToDo List </h5>
+          {{#each taskData}}
+                <div class="row justify-content-center">
+                  {{task_name}}
+                </div>
+          {{/each}}
+    <h5> Completed task </h5>
+   </div>
+</div>
+{{/if}}
